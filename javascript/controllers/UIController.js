@@ -1,12 +1,7 @@
+export class UIController {
+  #UISelector = {};
 
-export class UIController{
-    #UISelector ={
-    }
-
-
-    
-
-    getUISelector(){
-        return this.#UISelector;
-    }
+  getUISelector() {
+    return this.#UISelector;
+  }
 }
